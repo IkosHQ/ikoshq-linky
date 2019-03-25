@@ -1,0 +1,16 @@
+{
+    "name": "@ikoshq/linky",
+    "version": "0.0.1",
+    "description": "Because no one should be linking unmodeled dependencies.",
+    "main": "linky.js",
+    "bin": "cli.js",
+    "dependencies": {
+        "colors": "latest",
+        "winston": "latest"
+    },
+    "files": [
+        "cli.js",
+        "./lib"
+    ],
+    "license": "MIT"
+}
