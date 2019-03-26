@@ -8,9 +8,5 @@
         "colors": "latest",
         "winston": "latest"
     },
-    "files": [
-        "cli.js",
-        "./lib"
-    ],
     "license": "MIT"
 }
