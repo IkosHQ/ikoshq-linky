@@ -4,9 +4,15 @@
     "description": "Because no one should be linking unmodeled dependencies.",
     "main": "linky.js",
     "bin": "cli.js",
+    "scripts": {
+        "test": "jest"
+    },
     "dependencies": {
         "colors": "latest",
         "winston": "latest"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^24.5.0"
+    }
 }
