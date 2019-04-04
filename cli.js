@@ -27,6 +27,7 @@ const run = () => {
   `)
   } else {
     const env = process.env.LINKY_ENV || process.env.NODE_ENV || 'development'
+    console.log(`Linky environment is: ${env}`)
     return linky(lifecycleEvent, env)
   }
 }
