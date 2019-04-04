@@ -1,1 +1,1 @@
-A tiny utility for managing a `npm link` graph
+A tiny utility for managing a `npm link` graph.
